@@ -157,10 +157,13 @@ main h3 {
 }
 
 .normal-size {
-    min-width: 100%;
+    display: none;
     flex-basis: 60%;
 }
 
+.small-size {
+    min-width: 100%;
+}
 /* ! FOOTER */
 
 footer {
@@ -236,7 +239,6 @@ footer {
 
     .normal-size {
         display: block;
-        width: 50%;
     }
 
     .small-size {
@@ -248,10 +250,6 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .normal-size {
-        min-width: 30%;
     }
 
     footer {
